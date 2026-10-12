@@ -1,65 +1,6 @@
 {
-  "generated_at": "2026-10-12T20:15:30Z",
+  "generated_at": "2026-10-12T21:22:05Z",
   "candidates": [
-    {
-      "term": "this was a great topic next can we also talk about fiber vs fabric or weave bc so many people are confused about the word satin a fabric that can be made from s",
-      "vid": "xkOPrvv9jbU",
-      "cid": "UgzP74dXSZSmcXA2iy14AaABAg",
-      "question": "This was a great topic! Next can we also talk about FIBER vs FABRIC (or weave) bc so many people are confused about the word satin, a fabric that can be made from silk or polyester (or even cotton although then they call it sateen). Velvet used to only be made from silk, then polyester or acetate an",
-      "source_url": "https://www.youtube.com/watch?v=xkOPrvv9jbU",
-      "comment_url": "https://www.youtube.com/watch?v=xkOPrvv9jbU&lc=UgzP74dXSZSmcXA2iy14AaABAg",
-      "votes": 86,
-      "funnel": "mid",
-      "intent": "spec",
-      "inject_terms": [
-        "velvet fabric gsm",
-        "best cotton fabric gsm",
-        "cotton fabric gsm 200",
-        "fabric denier vs gsm",
-        "fabric gsm vs oz",
-        "fabric weight vs gsm"
-      ],
-      "score": 98.0
-    },
-    {
-      "term": "a series on how to buy fabric online",
-      "vid": "p_vnwgtJLz4",
-      "cid": "UgxUleLubKPA44RI3T14AaABAg",
-      "question": "A SERIES ON HOW TO BUY FABRIC ONLINE!?!",
-      "source_url": "https://www.youtube.com/watch?v=p_vnwgtJLz4",
-      "comment_url": "https://www.youtube.com/watch?v=p_vnwgtJLz4&lc=UgxUleLubKPA44RI3T14AaABAg",
-      "votes": 26,
-      "funnel": "mid",
-      "intent": "spec",
-      "inject_terms": [
-        "fabric gsm calculator online",
-        "fabric gsm",
-        "denim fabric gsm",
-        "duck fabric gsm",
-        "eyelet fabric gsm",
-        "fabric 100 gsm"
-      ],
-      "score": 38.0
-    },
-    {
-      "term": "dumb question moq is for a single size how do you manage size variety",
-      "vid": "BchjB1xFJ88",
-      "cid": "UgyvYCIGyCI8f_S_1TZ4AaABAg",
-      "question": "Dumb question, MOQ is for a single size? How do you manage size variety?",
-      "source_url": "https://www.youtube.com/watch?v=BchjB1xFJ88",
-      "comment_url": "https://www.youtube.com/watch?v=BchjB1xFJ88&lc=UgyvYCIGyCI8f_S_1TZ4AaABAg",
-      "votes": 15,
-      "funnel": "mid",
-      "intent": "transaction",
-      "inject_terms": [
-        "fabric gsm size",
-        "clothing manufacturer low moq",
-        "clothing manufacturer small moq",
-        "fabric gsm cutter size",
-        "garment manufacturer low moq"
-      ],
-      "score": 27.0
-    },
     {
       "term": "most sources say size up now your telling me to size down",
       "vid": "7aHmIZHyUp0",
@@ -96,6 +37,116 @@
         "tech pack 101"
       ],
       "score": 26.0
+    },
+    {
+      "term": "can you share your favorite online fabric stores",
+      "vid": "p_vnwgtJLz4",
+      "cid": "UgxhXqRo-_Bf5aMGUCt4AaABAg",
+      "question": "Can you share your favorite online fabric stores?",
+      "source_url": "https://www.youtube.com/watch?v=p_vnwgtJLz4",
+      "comment_url": "https://www.youtube.com/watch?v=p_vnwgtJLz4&lc=UgxhXqRo-_Bf5aMGUCt4AaABAg",
+      "votes": 12,
+      "funnel": "mid",
+      "intent": "spec",
+      "inject_terms": [
+        "fabric gsm calculator online",
+        "fabric gsm",
+        "denim fabric gsm",
+        "duck fabric gsm",
+        "eyelet fabric gsm",
+        "fabric 100 gsm"
+      ],
+      "score": 24.0
+    },
+    {
+      "term": "when working with a factory in china or us should i have a patent prior to working with the factory do factories in china ever steel ideas and just start manufa",
+      "vid": "RBj6vLKtsdA",
+      "cid": "UgyysqqV4pGe3oDqnT54AaABAg",
+      "question": "When working with a factory (in China or US) should I have a patent prior to working with the factory? Do factories in China ever steel ideas and just start manufacturing your product for resale by others?",
+      "source_url": "https://www.youtube.com/watch?v=RBj6vLKtsdA",
+      "comment_url": "https://www.youtube.com/watch?v=RBj6vLKtsdA&lc=UgyysqqV4pGe3oDqnT54AaABAg",
+      "votes": 12,
+      "funnel": "mid",
+      "intent": "supplier-hunt",
+      "inject_terms": [
+        "quality control china manufacturing",
+        "quality check china",
+        "quality control china",
+        "quality inspection china",
+        "quality inspector china",
+        "china quality inspection association"
+      ],
+      "score": 24.0
+    },
+    {
+      "term": "now that i know the gsm of them what do i do the holes in all my clothes",
+      "vid": "BRLdyiqXPE4",
+      "cid": "UgzTOU_KXyZr-zrqBT94AaABAg",
+      "question": "Now that i know the gsm of them, what do i do the holes in all my clothes?!",
+      "source_url": "https://www.youtube.com/watch?v=BRLdyiqXPE4",
+      "comment_url": "https://www.youtube.com/watch?v=BRLdyiqXPE4&lc=UgzTOU_KXyZr-zrqBT94AaABAg",
+      "votes": 10,
+      "funnel": "mid",
+      "intent": "risk",
+      "inject_terms": [
+        "fabric gsm",
+        "best cloth gsm",
+        "cloth bag gsm",
+        "cloth in gsm",
+        "cloth quality gsm",
+        "denim fabric gsm"
+      ],
+      "score": 22.0
+    },
+    {
+      "term": "who exactly is making these garments slaves indentured servants eight year olds is there any mechanism in place to address concerns along the supply chain are t",
+      "vid": "BchjB1xFJ88",
+      "cid": "Ugx09AlbQIIZc5VQ01d4AaABAg",
+      "question": "Who exactly is making these garments? Slaves/indentured servants? Eight year olds? Is there any mechanism in place to address concerns along the supply chain? Are there ever any discussions regarding sourcing of materials by these trading companies?",
+      "source_url": "https://www.youtube.com/watch?v=BchjB1xFJ88",
+      "comment_url": "https://www.youtube.com/watch?v=BchjB1xFJ88&lc=Ugx09AlbQIIZc5VQ01d4AaABAg",
+      "votes": 9,
+      "funnel": "top",
+      "intent": "spec",
+      "inject_terms": [
+        "shisanhang wholesale sourcing agent"
+      ],
+      "score": 21.0
+    },
+    {
+      "term": "what should your ideal price be for manufacturers for a 1 piece hoodie or t shirt",
+      "vid": "5ZrEBf_6-G4",
+      "cid": "Ugyc5PJrdLdKydA6LEJ4AaABAg",
+      "question": "What should your ideal price be for manufacturers for a 1 piece hoodie or t shirt?",
+      "source_url": "https://www.youtube.com/watch?v=5ZrEBf_6-G4",
+      "comment_url": "https://www.youtube.com/watch?v=5ZrEBf_6-G4&lc=Ugyc5PJrdLdKydA6LEJ4AaABAg",
+      "votes": 7,
+      "funnel": "bottom",
+      "intent": "supplier-hunt",
+      "inject_terms": [
+        "private label hoodie manufacturers",
+        "tech pack t shirt",
+        "gsm fabric hoodie",
+        "gsm fabric price",
+        "gsm fabric shirt",
+        "tech pack #1"
+      ],
+      "score": 19.0
+    },
+    {
+      "term": "could you please create a more detailed video on manufacturing and order processing shipping",
+      "vid": "KRRIL_FerrI",
+      "cid": "UgzTbOPZO0f8wH-65a94AaABAg",
+      "question": "Could you please create a more detailed video on manufacturing and order processing (shipping)?",
+      "source_url": "https://www.youtube.com/watch?v=KRRIL_FerrI",
+      "comment_url": "https://www.youtube.com/watch?v=KRRIL_FerrI&lc=UgzTbOPZO0f8wH-65a94AaABAg",
+      "votes": 6,
+      "funnel": "bottom",
+      "intent": "logistics",
+      "inject_terms": [
+        "quality control china manufacturing"
+      ],
+      "score": 18.0
     }
   ]
 }
