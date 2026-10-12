@@ -1,0 +1,11 @@
+---
+import HomePage from '../../components/HomePage.astro';
+import { LANGS, type Lang } from '../../config/site';
+
+/** Localized home pages. English lives at the root (`/`), so it is not emitted here. */
+export function getStaticPaths() {
+  return LANGS.filter((l) => l !== 'en').map((lang) => ({ params: { lang: lang as Lang } }));
+}
+---
+
+<HomePage lang={Astro.params.lang as Lang} />

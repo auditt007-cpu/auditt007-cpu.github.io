@@ -1,0 +1,16 @@
+---
+import GuidePage from '../../components/GuidePage.astro';
+import { slugLangPairs } from '../../lib/guides';
+
+/** English articles: no `/en/` prefix. */
+export async function getStaticPaths() {
+  const pairs = await slugLangPairs();
+  return pairs
+    .filter((p) => p.lang === 'en')
+    .map((p) => ({ params: { slug: p.slug }, props: { lang: p.lang } }));
+}
+
+const { lang } = Astro.props;
+---
+
+<GuidePage lang={lang} slug={Astro.params.slug} />

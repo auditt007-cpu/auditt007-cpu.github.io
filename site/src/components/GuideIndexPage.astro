@@ -1,0 +1,49 @@
+---
+import Base from '../layouts/Base.astro';
+import GuideCard from './GuideCard.astro';
+import { localizedPath, SITE_NAME, SITE_TAGLINE, type Lang } from '../config/site';
+import { UI } from '../config/ui';
+import { FUNNEL_ORDER, groupByFunnel, guidesForLang } from '../lib/guides';
+import { collectionJsonLd } from '../lib/seo';
+
+export interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const ui = UI[lang];
+const guides = await guidesForLang(lang);
+const groups = groupByFunnel(guides);
+const path = localizedPath(lang, '/guides');
+const alternates = (['en', 'ru', 'ar'] as const).map((l) => ({ lang: l, path: localizedPath(l, '/guides') }));
+const funnelLabel: Record<(typeof FUNNEL_ORDER)[number], string> = {
+  bottom: ui.funnel_bottom,
+  mid: ui.funnel_mid,
+  top: ui.funnel_top,
+};
+---
+
+<Base
+  lang={lang}
+  title={`${ui.guides_title} — ${SITE_NAME}`}
+  description={SITE_TAGLINE.slice(0, 160)}
+  path={path}
+  alternates={alternates}
+  jsonLd={[collectionJsonLd(ui.guides_title, path, guides)]}
+>
+  <h1>{ui.guides_title}</h1>
+  {guides.length === 0 ? (
+    <p>{ui.guides_empty}</p>
+  ) : (
+    groups.map(([funnel, items]) =>
+      items.length === 0 ? null : (
+        <section class="funnel-group">
+          <h2 class="section-label">{funnelLabel[funnel as (typeof FUNNEL_ORDER)[number]]}</h2>
+          <div class="grid">
+            {items.map((g) => <GuideCard guide={g} lang={lang} label={ui.read_article} />)}
+          </div>
+        </section>
+      )
+    )
+  )}
+</Base>

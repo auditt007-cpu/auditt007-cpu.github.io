@@ -1,0 +1,17 @@
+---
+import GuidePage from '../../../components/GuidePage.astro';
+import { slugLangPairs } from '../../../lib/guides';
+import type { Lang } from '../../../config/site';
+
+/** Translated articles under `/ru/` and `/ar/`; English stays unprefixed. */
+export async function getStaticPaths() {
+  const pairs = await slugLangPairs();
+  return pairs
+    .filter((p) => p.lang !== 'en')
+    .map((p) => ({ params: { lang: p.lang, slug: p.slug }, props: {} }));
+}
+
+const lang = Astro.params.lang as Lang;
+---
+
+<GuidePage lang={lang} slug={Astro.params.slug} />

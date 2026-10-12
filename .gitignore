@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+data/sourcing.db*
+data/*.log
+data/report.json
+site/node_modules/
+site/dist/
+site/.astro/
+site/.env*
+.env.*
+!.env.example

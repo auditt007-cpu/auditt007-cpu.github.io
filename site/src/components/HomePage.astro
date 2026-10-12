@@ -1,0 +1,47 @@
+---
+import Base from '../layouts/Base.astro';
+import GuideCard from './GuideCard.astro';
+import { localizedPath, SITE_NAME, SITE_TAGLINE, SITE_URL, type Lang } from '../config/site';
+import { UI } from '../config/ui';
+import { guidesForLang } from '../lib/guides';
+
+export interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const ui = UI[lang];
+const latest = (await guidesForLang(lang)).slice(0, 6);
+const path = localizedPath(lang, '/');
+const alternates = (['en', 'ru', 'ar'] as const).map((l) => ({ lang: l, path: localizedPath(l, '/') }));
+---
+
+<Base
+  lang={lang}
+  title={`${SITE_NAME} — Guangzhou garment sourcing agent`}
+  description={SITE_TAGLINE.slice(0, 160)}
+  path={path}
+  alternates={alternates}
+  jsonLd={[
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      name: SITE_NAME,
+      url: `${SITE_URL}/`,
+      description: SITE_TAGLINE,
+    },
+  ]}
+>
+  <h1>{ui.home_h1}</h1>
+  <p class="lede">{SITE_TAGLINE}</p>
+  <p><a class="cta" href={localizedPath(lang, '/inquiry')}>{ui.home_cta} →</a></p>
+
+  <h2 class="section-label" style="border:0;padding:0">{ui.home_latest}</h2>
+  {latest.length === 0 ? (
+    <p>{ui.guides_empty}</p>
+  ) : (
+    <div class="grid">
+      {latest.map((g) => <GuideCard guide={g} lang={lang} label={ui.read_article} />)}
+    </div>
+  )}
+</Base>

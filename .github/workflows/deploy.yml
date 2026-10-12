@@ -1,0 +1,77 @@
+name: Deploy site
+
+# 部署的是仓库根目录的 site/ 构建产物（site/dist），站点是用户主页型仓库
+# auditt007-cpu/auditt007-cpu.github.io → https://auditt007-cpu.github.io/（base 为 /）。
+#
+# 两个触发源：
+#   push main            —— 本机 PAT 首推（T7）+ 东京 VPS 每日发文（T8 run.sh 用 PAT 走 git data API）
+#   workflow_dispatch    —— 网页端手动重建
+# T8 之后生成端不在 Actions 里跑（密钥与 sourcing/ 代码都不进公开仓库），所以 VPS 的提交
+# 是一次真实的 PAT push —— 会正常触发 push 事件，不再需要 workflow_run 兜底。
+# docs/CI-SECRETS.md 里旧版关于 workflow_run 的推理（GITHUB_TOKEN 提交不触发下游）随 daily.yml
+# 一起作废：那条限制只在「用 GITHUB_TOKEN 提交」时成立，现在提交方是 VPS 的 PAT。
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# 最小权限：只读代码、写 Pages、OIDC（configure-pages 取 id token 用）。
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同一个 group 串行、不取消进行中：Pages 只有一个人位，并发部署会互相踩。
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          # 锁文件必须在仓库里；缺 site/package-lock.json 时这一步会直接失败（npm ci 也需要它）。
+          cache-dependency-path: site/package-lock.json
+
+      - name: Build (Astro -> site/dist)
+        working-directory: site
+        env:
+          # secret 名 INQUIRY_EMAIL（与本机 .env 同名）→ Astro 只把 PUBLIC_ 前缀暴露给客户端。
+          # 任何 step 都不打印它的值。
+          PUBLIC_INQUIRY_EMAIL: ${{ secrets.INQUIRY_EMAIL }}
+        run: |
+          set -euo pipefail
+          if [ -z "${PUBLIC_INQUIRY_EMAIL:-}" ]; then
+            echo "::warning::secret INQUIRY_EMAIL 未设置：/inquiry 的 mailto 收件地址会是空的（站照样发，不阻塞）"
+          fi
+          npm ci
+          npm run build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+
+  deploy:
+    name: deploy
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

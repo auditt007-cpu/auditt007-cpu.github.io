@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-10-12T20:15:30Z",
+  "candidates": [
+    {
+      "term": "this was a great topic next can we also talk about fiber vs fabric or weave bc so many people are confused about the word satin a fabric that can be made from s",
+      "vid": "xkOPrvv9jbU",
+      "cid": "UgzP74dXSZSmcXA2iy14AaABAg",
+      "question": "This was a great topic! Next can we also talk about FIBER vs FABRIC (or weave) bc so many people are confused about the word satin, a fabric that can be made from silk or polyester (or even cotton although then they call it sateen). Velvet used to only be made from silk, then polyester or acetate an",
+      "source_url": "https://www.youtube.com/watch?v=xkOPrvv9jbU",
+      "comment_url": "https://www.youtube.com/watch?v=xkOPrvv9jbU&lc=UgzP74dXSZSmcXA2iy14AaABAg",
+      "votes": 86,
+      "funnel": "mid",
+      "intent": "spec",
+      "inject_terms": [
+        "velvet fabric gsm",
+        "best cotton fabric gsm",
+        "cotton fabric gsm 200",
+        "fabric denier vs gsm",
+        "fabric gsm vs oz",
+        "fabric weight vs gsm"
+      ],
+      "score": 98.0
+    },
+    {
+      "term": "a series on how to buy fabric online",
+      "vid": "p_vnwgtJLz4",
+      "cid": "UgxUleLubKPA44RI3T14AaABAg",
+      "question": "A SERIES ON HOW TO BUY FABRIC ONLINE!?!",
+      "source_url": "https://www.youtube.com/watch?v=p_vnwgtJLz4",
+      "comment_url": "https://www.youtube.com/watch?v=p_vnwgtJLz4&lc=UgxUleLubKPA44RI3T14AaABAg",
+      "votes": 26,
+      "funnel": "mid",
+      "intent": "spec",
+      "inject_terms": [
+        "fabric gsm calculator online",
+        "fabric gsm",
+        "denim fabric gsm",
+        "duck fabric gsm",
+        "eyelet fabric gsm",
+        "fabric 100 gsm"
+      ],
+      "score": 38.0
+    },
+    {
+      "term": "dumb question moq is for a single size how do you manage size variety",
+      "vid": "BchjB1xFJ88",
+      "cid": "UgyvYCIGyCI8f_S_1TZ4AaABAg",
+      "question": "Dumb question, MOQ is for a single size? How do you manage size variety?",
+      "source_url": "https://www.youtube.com/watch?v=BchjB1xFJ88",
+      "comment_url": "https://www.youtube.com/watch?v=BchjB1xFJ88&lc=UgyvYCIGyCI8f_S_1TZ4AaABAg",
+      "votes": 15,
+      "funnel": "mid",
+      "intent": "transaction",
+      "inject_terms": [
+        "fabric gsm size",
+        "clothing manufacturer low moq",
+        "clothing manufacturer small moq",
+        "fabric gsm cutter size",
+        "garment manufacturer low moq"
+      ],
+      "score": 27.0
+    },
+    {
+      "term": "most sources say size up now your telling me to size down",
+      "vid": "7aHmIZHyUp0",
+      "cid": "Ugz17TN7iAoMwrLZ9pl4AaABAg",
+      "question": "Most sources say size up now your telling me to size down?",
+      "source_url": "https://www.youtube.com/watch?v=7aHmIZHyUp0",
+      "comment_url": "https://www.youtube.com/watch?v=7aHmIZHyUp0&lc=Ugz17TN7iAoMwrLZ9pl4AaABAg",
+      "votes": 15,
+      "funnel": "top",
+      "intent": "awareness",
+      "inject_terms": [
+        "fabric gsm size",
+        "fabric gsm cutter size",
+        "tech pack zip up"
+      ],
+      "score": 27.0
+    },
+    {
+      "term": "please share any tips on how to create a tech pack also the difference between finding a manufacturer and doing a print on demand",
+      "vid": "J1RH--WIMD8",
+      "cid": "UgxQb_PmC3e-ksRf4p14AaABAg",
+      "question": "Please share any tips on how to create a tech pack. Also the difference between finding a manufacturer and doing a print on demand",
+      "source_url": "https://www.youtube.com/watch?v=J1RH--WIMD8",
+      "comment_url": "https://www.youtube.com/watch?v=J1RH--WIMD8&lc=UgxQb_PmC3e-ksRf4p14AaABAg",
+      "votes": 14,
+      "funnel": "mid",
+      "intent": "supplier-hunt",
+      "inject_terms": [
+        "tech pack",
+        "tech pack for manufacturer",
+        "07 tech pack",
+        "are tech pack",
+        "tech pack #1",
+        "tech pack 101"
+      ],
+      "score": 26.0
+    }
+  ]
+}

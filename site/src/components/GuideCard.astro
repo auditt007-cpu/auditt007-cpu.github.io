@@ -1,0 +1,23 @@
+---
+import type { Guide } from '../lib/guides';
+import { articlePath, type Lang } from '../config/site';
+
+export interface Props {
+  guide: Guide;
+  lang: Lang;
+  label: string;
+}
+
+const { guide, lang, label } = Astro.props;
+const href = articlePath(lang, guide.data.slug);
+---
+
+<article class="card">
+  <div class="meta">
+    <span>{guide.data.funnel}</span>
+    <time datetime={guide.data.date.toISOString().slice(0, 10)}>{guide.data.date.toISOString().slice(0, 10)}</time>
+  </div>
+  <h3><a href={href}>{guide.data.title}</a></h3>
+  <p>{guide.data.description}</p>
+  <p><a href={href}>{label} →</a></p>
+</article>

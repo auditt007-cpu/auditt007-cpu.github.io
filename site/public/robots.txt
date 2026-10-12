@@ -1,0 +1,25 @@
+# Shun Sourcing — static Astro site. All content is server-rendered HTML, no paywall, no login.
+User-agent: *
+Allow: /
+
+# AI / LLM crawlers are explicitly welcome (GEO).
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Keep this URL in sync with PUBLIC_SITE_URL in site/.env.
+Sitemap: https://auditt007-cpu.github.io/sitemap-index.xml

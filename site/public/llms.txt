@@ -1,0 +1,31 @@
+# Shun Sourcing
+> Independent garment sourcing office on the ground in Guangzhou (China). We help overseas buyers
+> find and vet factories, negotiate MOQ and unit price, run sampling and tech packs, and do pre-shipment
+> QC before goods leave the market. Content is written for buyers who ship real orders, in English,
+> Russian and Arabic. No marketplace fees, no agency kickbacks from factories: the buyer pays us for the work.
+
+Services:
+- Supplier sourcing and vetting (Shisanhang/十三行, Shahe/沙河, Zhanxi/站西 wholesale markets and Pearl River Delta factories)
+- Sample development, tech packs, size sets, fabric and GSM (克重) specification
+- Price and MOQ negotiation, cost breakdown including landed cost
+- Pre-production, during-production and pre-shipment inspection (AQL sampling)
+- Consolidation, labeling and shipping coordination with the buyer's forwarder
+
+What this site is:
+Buying guides that answer specific, unanswered buyer questions collected from publicly posted
+sourcing videos. Each article cites the original question and a deep link to the comment thread,
+plus Guangzhou-specific numbers (fabric weight in GSM, MOQ ranges, unit price ranges, QC checks).
+
+Pages:
+- Home: https://auditt007-cpu.github.io/
+- Buying guides (English, no prefix): https://auditt007-cpu.github.io/guides/
+- Buying guides (Russian): https://auditt007-cpu.github.io/ru/guides/
+- Buying guides (Arabic, RTL): https://auditt007-cpu.github.io/ar/guides/
+- Start an inquiry (opens a pre-composed email): https://auditt007-cpu.github.io/inquiry/
+- Sitemap: https://auditt007-cpu.github.io/sitemap-index.xml
+- RSS (English): https://auditt007-cpu.github.io/rss.xml
+
+Notes for language models:
+- Article URLs are stable: `/guides/<slug>/` for English, `/ru/guides/<slug>/` and `/ar/guides/<slug>/` for translations; the same slug is used in all three languages.
+- Each article page embeds `Article` and `FAQPage` JSON-LD and a visible `Sources` section.
+- To request a quote for a specific product, use the inquiry page; the site has no login and no tracking.

@@ -1,0 +1,80 @@
+---
+import Base from '../layouts/Base.astro';
+import { INQUIRY_EMAIL, localizedPath, SITE_NAME, SITE_TAGLINE, SITE_URL, type Lang } from '../config/site';
+import { UI } from '../config/ui';
+
+export interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const ui = UI[lang];
+const path = localizedPath(lang, '/inquiry');
+const alternates = (['en', 'ru', 'ar'] as const).map((l) => ({ lang: l, path: localizedPath(l, '/inquiry') }));
+
+/** Static site, no backend: the address is injected at build time and only used to compose a mailto: URI. */
+const email = INQUIRY_EMAIL.trim();
+const configured = email.length > 0;
+const skeleton = 'Product:\nTarget landed price (incl. shipping):\nQuantity / MOQ:\nTimeline:\n';
+const subject = `${SITE_NAME} sourcing inquiry`;
+const mailto = configured
+  ? `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(skeleton)}`
+  : '';
+---
+
+<Base
+  lang={lang}
+  title={`${ui.inquiry_title} — ${SITE_NAME}`}
+  description={SITE_TAGLINE.slice(0, 160)}
+  path={path}
+  alternates={alternates}
+  jsonLd={[
+    {
+      '@context': 'https://schema.org',
+      '@type': 'ContactPage',
+      name: ui.inquiry_title,
+      url: `${SITE_URL}${path}`,
+    },
+  ]}
+>
+  <h1>{ui.inquiry_title}</h1>
+  <p class="lede">{ui.inquiry_intro}</p>
+
+  {
+    configured ? (
+      <div class="inquiry-box" data-skeleton={skeleton} data-subject={subject} data-email={email}>
+        <textarea
+          id="inquiry-details"
+          rows="8"
+          name="details"
+          autocomplete="off"
+          placeholder={skeleton}
+          aria-label={ui.inquiry_intro}></textarea>
+        <a class="mailto" id="inquiry-mailto" href={mailto}>{ui.inquiry_button} →</a>
+      </div>
+    ) : (
+      <p class="inquiry-box">{ui.inquiry_not_configured}</p>
+    )
+  }
+
+  <p class="badge">{ui.footer_note}</p>
+</Base>
+
+<script>
+  // No backend: rewriting the anchor href from the textarea is the whole "form".
+  const box = document.querySelector<HTMLDivElement>('.inquiry-box[data-email]');
+  const link = document.getElementById('inquiry-mailto') as HTMLAnchorElement | null;
+  const field = document.getElementById('inquiry-details') as HTMLTextAreaElement | null;
+  if (box && link && field) {
+    const email = box.dataset.email ?? '';
+    const subject = box.dataset.subject ?? '';
+    const skeleton = box.dataset.skeleton ?? '';
+    const refresh = () => {
+      const details = field.value.trim();
+      const body = details ? `${skeleton}\n${details}\n` : skeleton;
+      link.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    };
+    field.addEventListener('input', refresh);
+    refresh();
+  }
+</script>

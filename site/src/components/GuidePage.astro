@@ -1,0 +1,96 @@
+---
+import Base from '../layouts/Base.astro';
+import { render } from 'astro:content';
+import { articlePath, localizedPath, SITE_NAME, type Lang } from '../config/site';
+import { UI } from '../config/ui';
+import { alternatesFor, guidesBySlug } from '../lib/guides';
+import { articleJsonLd, faqJsonLd, heroUrl } from '../lib/seo';
+
+export interface Props {
+  lang: Lang;
+  slug: string;
+}
+
+const { lang, slug } = Astro.props;
+const ui = UI[lang];
+const versions = await guidesBySlug(slug);
+const guide = versions.find((g) => g.data.lang === lang);
+if (!guide) throw new Error(`guide "${slug}" has no "${lang}" version — check src/content/guides/${lang}/${slug}.md`);
+
+const { Content, headings } = await render(guide);
+const { title, description, date, question, source_url, comment_url, keywords, funnel, intent, word_count } =
+  guide.data;
+const path = articlePath(lang, slug);
+const alternates = alternatesFor(versions);
+const hero = heroUrl(guide);
+const day = date.toISOString().slice(0, 10);
+const funnelLabel = funnel === 'bottom' ? ui.funnel_bottom : funnel === 'mid' ? ui.funnel_mid : ui.funnel_top;
+/** §3 puts `## Sources` in the body; the block below is the fallback so a source link is never missing. */
+const bodyHasSources = headings.some((h) =>
+  ['sources', 'источники', 'المصادر'].includes(String(h.text ?? h.slug ?? '').trim().toLowerCase()),
+);
+---
+
+<Base
+  lang={lang}
+  title={`${title} — ${SITE_NAME}`}
+  description={description}
+  path={path}
+  alternates={alternates}
+  ogType="article"
+  ogImage={hero}
+  jsonLd={[articleJsonLd(guide, path), faqJsonLd(guide)]}
+>
+  <article>
+    {hero && (
+      <figure class="hero">
+        <img src={hero} alt={title} width="1600" height="900" loading="eager" decoding="async" />
+      </figure>
+    )}
+    <h1>{title}</h1>
+    <p class="art-meta">
+      <time datetime={day}>{day}</time>
+      <span class="tag">{funnelLabel}</span>
+      <span class="tag">{intent}</span>
+      <span class="tag">{word_count}</span>
+    </p>
+
+    <p class="question"><span class="q-label">{ui.question_label}:</span> “{question}”</p>
+
+    <div class="article-body">
+      <Content />
+    </div>
+
+    <section class="faq">
+      <h2>{ui.faq_label}</h2>
+      <dl>
+        {guide.data.faq.map((item) => (
+          <>
+            <dt>{item.q}</dt>
+            <dd>{item.a}</dd>
+          </>
+        ))}
+      </dl>
+    </section>
+
+    {!bodyHasSources && (
+      <section class="sources">
+        <h2>{ui.sources_label}</h2>
+        <ul>
+          <li><a href={source_url} rel="noopener" target="_blank">youtube.com — {source_url}</a></li>
+          <li><a href={comment_url} rel="noopener" target="_blank">{ui.comment_label}</a></li>
+        </ul>
+      </section>
+    )}
+
+    <p class="keywords">
+      {keywords.map((k) => <span class="tag">{k}</span>)}
+    </p>
+
+    <p class="badge">
+      <a href={localizedPath(lang, '/guides')}>{ui.nav_guides}</a>
+      {' · '}
+      <a class="cta" href={localizedPath(lang, '/inquiry')}>{ui.nav_inquiry} →</a>
+    </p>
+  </article>
+</Base>
