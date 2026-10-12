@@ -1,0 +1,8 @@
+{
+  "purpose": "T6 ghpush self-test",
+  "generated_at": "2026-10-13T03:59:00+08:00",
+  "checks": [
+    "contents PUT",
+    "raw GET"
+  ]
+}
