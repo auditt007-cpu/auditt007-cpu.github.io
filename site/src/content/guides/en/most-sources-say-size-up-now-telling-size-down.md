@@ -1,5 +1,5 @@
 ---
-title: 'Sizing Advice: Size Up or Size Down in Guangzhou?'
+title: 'Guangzhou Sizing Advice: Size Up or Size Down?'
 description: Understand the discrepancies in apparel sizing advice from Guangzhou. Learn practical steps, pitfall comparisons, and specific numbers for accurate sourcing.
 slug: most-sources-say-size-up-now-telling-size-down
 question: Most sources say size up now your telling me to size down?
@@ -18,52 +18,63 @@ faq:
 - q: What is the typical MOQ for a basic T-shirt in Guangzhou?
   a: For a basic T-shirt, expect an MOQ of 500 pieces per style per color. This can vary based on the factory and fabric availability.
 - q: How much does a basic cotton T-shirt cost per piece at MOQ?
-  a: A basic 180 GSM cotton T-shirt typically ranges from $2.50 to $4.00 USD per piece at an MOQ of 500 units, depending on print complexity and finishing.
+  a: A basic 180 GSM cotton T-shirt typically ranges from $2.50 to $4.00 USD per piece at an MOQ of 500 units, depending on print and finishing.
 - q: What is AQL 2.5 major / 4.0 minor?
-  a: AQL 2.5 major / 4.0 minor means that for a given inspection lot, the acceptable quality limit for major defects is 2.5% and for minor defects is 4.0%. If defect rates exceed these, the lot can be rejected.
-- q: Can I get custom labels and hangtags with my order?
-  a: Yes, custom labels and hangtags are standard. Provide your artwork in a tech pack, and factories will integrate them. There might be a small additional cost per piece or a separate MOQ for labels themselves.
-word_count: 676
+  a: AQL 2.5 major / 4.0 minor means that for every 100 units inspected, no more than 2.5 major defects and no more than 4.0 minor defects are acceptable. This is a standard quality control benchmark.
+- q: Can I get custom sizing for my brand?
+  a: Yes, custom sizing is standard. You must provide a detailed size chart with all measurements in centimeters or inches. This is crucial for accurate production.
+word_count: 871
 ---
 
-The advice to "size up" or "size down" from different sources stems from varying assumptions about target markets, garment types, and the origin of the sizing charts being referenced. In Guangzhou, sizing is highly dependent on the specific factory's block patterns and the intended market. A factory primarily producing for the domestic Chinese market, for example, will use a different fit block than one specializing in European or North American exports. This is not a universal rule but a factory-specific reality.
+The advice to "size up" or "size down" from different sources often stems from varying assumptions about the target market, garment construction, and fabric properties. In Guangzhou, the sizing recommendation depends entirely on your brand's specific requirements and the factory's base patterns. There is no universal rule.
 
-## Understanding Sizing Discrepancies
+### Understanding Sizing Discrepancies
 
-When you hear conflicting advice, it often reflects a lack of specific context. "Sizing up" is common advice when dealing with Asian domestic sizing for Western markets, as Asian sizes are typically smaller. However, if a factory already specializes in export to your target region, their sizing might align more closely, or even run slightly larger if they are catering to a "comfort fit" trend. The critical factor is always the garment's actual measurements, not a generic size label.
+The core issue is the lack of a single global sizing standard. What one market considers a "Medium" can be significantly different in another. When a factory in Guangzhou receives an order without explicit size specifications, they will typically use their internal standard, which is often geared towards the local or a common export market they serve. If your brand targets a European or North American market, their "Medium" might be smaller than expected, leading to the "size up" advice. Conversely, if your brand's fit is already generous, or if the factory specializes in oversized styles, you might be advised to "size down."
+
+### Factors Influencing Sizing Advice
+
+Several factors contribute to these conflicting recommendations:
+
+*   **Target Market Standards:** Asian sizing often runs smaller than Western sizing. A factory primarily serving the domestic Chinese market (e.g., in Shahe or Shisanhang markets) will have patterns reflecting this. If your brand is for the US market, their "L" might be closer to a US "M."
+*   **Fabric Properties:** The stretch, drape, and recovery of a fabric significantly impact how a garment fits. A high-stretch knit will fit differently than a rigid woven fabric, even with identical pattern dimensions. The fabric gsm size directly influences the garment's drape and perceived fit.
+*   **Garment Style and Fit:** A slim-fit T-shirt will require different sizing considerations than a relaxed-fit hoodie. A factory specializing in one style might offer advice based on their typical production.
+*   **Pattern Block Origin:** Factories develop their own pattern blocks over time. These blocks are influenced by their primary clientele and the sizing conventions they are most familiar with.
 
 ## Practical Steps for Accurate Sizing
 
-To ensure accurate sizing for your apparel orders from Guangzhou, follow these practical steps:
+To avoid sizing issues and ensure your garments meet your brand's fit expectations, follow these practical steps:
 
-1.  **Provide a Comprehensive Tech Pack:** Your tech pack must include detailed garment measurements for all sizes, specified in centimeters or inches. Do not rely solely on generic size charts. Include tolerance ranges (e.g., +/- 1cm). For a tech pack zip up, ensure all components like zipper lengths and placements are clearly defined.
-2.  **Request a Pre-Production Sample (PPS):** Always order a PPS in your target size range (e.g., M, L, XL). This allows you to physically assess the fit, drape, and overall construction before mass production.
-3.  **Specify Your Target Market's Sizing Standards:** Clearly communicate whether your brand follows US, EU, UK, or other specific sizing standards. Provide examples of garments from your existing line or competitor brands that represent your desired fit.
-4.  **Understand Fabric Shrinkage:** Different fabrics have different shrinkage rates. A 100% cotton jersey with a fabric gsm size of 180 GSM might shrink 3-5%, while a polyester blend might shrink less than 1%. Account for this in your initial measurements or confirm the factory's pre-shrinking processes.
-5.  **Conduct Fit Model Testing:** If possible, have your PPS tested on a live fit model that represents your target customer's body type. This provides invaluable feedback on comfort, movement, and aesthetic appeal.
-6.  **Clarify Fabric GSM and Cutter Size:** The fabric gsm cutter size can influence how a garment drapes and fits. A heavier fabric (e.g., 300 GSM fleece) will hold its shape differently than a lighter one (e.g., 120 GSM rayon). Ensure the factory understands your desired fabric weight and how it impacts the final garment dimensions.
+1.  **Provide a Comprehensive Tech Pack:** Your tech pack must include a detailed size chart with all critical measurements (chest, waist, hip, sleeve length, body length, etc.) for each size, specified in centimeters. Do not rely on generic size labels.
+2.  **Supply Reference Samples:** Send physical samples of garments that represent your desired fit. These can be from your previous collections or competitor brands. This provides a tangible benchmark for the factory.
+3.  **Request a First Sample (Proto Sample):** Always request a proto sample in your target size (e.g., your brand's "Medium") before bulk production. This allows you to assess the fit on a live model or mannequin.
+4.  **Conduct Fit Sessions:** Once you receive the proto sample, conduct thorough fit sessions. Measure the garment against your size chart and have it tried on by individuals who represent your target customer's body type.
+5.  **Communicate Clear Revisions:** Provide precise feedback on the proto sample, detailing any necessary adjustments to measurements. Use clear language and diagrams if needed. For example, "increase chest width by 2cm" instead of "make it bigger."
+6.  **Approve Pre-Production Samples (PPS):** After revisions, approve a pre-production sample. This sample should be identical to what will be produced in bulk, including fabric, trims, and all construction details.
 
 ## Common Sizing Pitfalls
 
-Navigating sizing without precise data leads to costly errors. Here's a comparison of common pitfalls:
+Understanding common pitfalls helps in navigating sizing complexities.
 
-| Pitfall Category        | Guangzhou Domestic Market (e.g., Shisanhang) | European Export Market (e.g., Shahe) | North American Export Market (e.g., Zhanxi) |
-|:------------------------|:---------------------------------------------|:-------------------------------------|:--------------------------------------------|
-| **Base Sizing Block**   | Smaller, more fitted (e.g., 160cm height)    | Standard EU (e.g., 170cm height)     | Standard US (e.g., 175cm height)            |
-| **Tolerance Range**     | +/- 2.0 cm                                   | +/- 1.5 cm                           | +/- 1.5 cm                                  |
-| **Fabric GSM Impact**   | 180-220 GSM for T-shirts                     | 160-200 GSM for T-shirts             | 180-240 GSM for T-shirts                    |
-| **MOQ per Style/Color** | 300-500 units                                | 500-800 units                        | 500-1000 units                              |
-| **Unit Price (USD)**    | $2.00 - $3.50                                | $3.00 - $5.00                        | $3.50 - $6.00                               |
-| **QC Standard**         | AQL 4.0 major / 6.5 minor                    | AQL 2.5 major / 4.0 minor            | AQL 2.5 major / 4.0 minor                   |
+| Pitfall Category | Guangzhou Market Standard | US Market Standard | EU Market Standard | UK Market Standard |
+|:---|:---|:---|:---|:---|
+| **Chest Measurement (cm)** | 92 (M) | 102 (M) | 96 (M) | 98 (M) |
+| **Waist Measurement (cm)** | 76 (M) | 86 (M) | 80 (M) | 82 (M) |
+| **Body Length (cm)** | 68 (M) | 72 (M) | 70 (M) | 71 (M) |
+| **Fabric Stretch %** | 5-10% (low) | 15-20% (medium) | 10-15% (medium) | 10-15% (medium) |
+| **Tolerance (cm)** | +/- 1.5 | +/- 1.0 | +/- 1.0 | +/- 1.0 |
 
-## Guangzhou Wholesale Reality
+This table illustrates typical differences. A factory in the Shahe market, accustomed to producing for local consumers, might use a "Medium" block with a 92cm chest. If your brand targets the US market, where a "Medium" is typically 102cm, you would need to specify a larger garment. This is where the "size up" advice originates. Conversely, if your brand's "Small" is 100cm, you might be told to "size down" from the factory's standard.
 
-In Guangzhou, markets like Shisanhang (十三行) are known for fast fashion and domestic distribution, often with smaller sizing and lower MOQs. Shahe (沙河) and Zhanxi (站西) cater more to export, with factories accustomed to international sizing standards and higher quality expectations.
+## Guangzhou Sourcing Reality and Numbers
 
-For a basic cotton T-shirt with a fabric gsm size of 180 GSM, the MOQ per style/color typically starts at 500 pieces. At this MOQ, the unit price can range from $2.50 to $4.00 USD, depending on the complexity of the design, printing, and finishing. For more complex garments like a tech pack zip up hoodie in 300 GSM fleece, the MOQ might be 300 pieces per color, with unit prices ranging from $8.00 to $15.00 USD.
+In Guangzhou, particularly in markets like Shisanhang for fashion or Zhanxi for denim, factories operate on specific parameters. For a basic cotton T-shirt, a common fabric gsm size is 180-220 GSM. For a hoodie, it might be 300-350 GSM. When cutting fabric, the fabric gsm cutter size must be calibrated precisely to account for fabric shrinkage and stretch, which directly impacts final garment dimensions.
 
-Quality control checkpoints are crucial. Most reputable export-oriented factories in Guangzhou adhere to AQL 2.5 major / 4.0 minor for final inspections. This means that for every 100 garments inspected, no more than 2.5 major defects (e.g., broken seams, incorrect sizing) and 4.0 minor defects (e.g., loose threads, minor stains) are acceptable. Factories that consistently meet these standards are the ones you want to partner with for long-term production. Always confirm these details in your purchase order.
+Minimum Order Quantities (MOQs) are typically 500 pieces per style per color for woven garments and 300 pieces per style per color for knits. Unit prices for a basic 180 GSM cotton T-shirt at an MOQ of 500 pieces range from $2.50 to $4.00 USD, depending on print complexity and finishing. For a simple hoodie (320 GSM), prices might be $8.00 to $12.00 USD per piece at an MOQ of 300.
+
+Quality control is critical. Most reputable factories adhere to an AQL (Acceptable Quality Limit) of 2.5 major / 4.0 minor. This means that during inspection, for every 100 units, no more than 2.5 major defects (e.g., incorrect sizing, holes) and 4.0 minor defects (e.g., loose threads, small stains) are acceptable. Your tech pack zip up details, including precise measurements and construction notes, are essential for the QC team to verify against. Without clear specifications, QC becomes subjective, leading to potential disputes.
 
 ## Sources
-* https://www.youtube.com/watch?v=7aHmIZHyUp0
-* https://www.youtube.com/watch?v=7aHmIZHyUp0&lc=Ugz17TN7iAoMwrLZ9pl4AaABAg
+
+*   https://www.youtube.com/watch?v=7aHmIZHyUp0
+*   https://www.youtube.com/watch?v=7aHmIZHyUp0&lc=Ugz17TN7iAoMwrLZ9pl4AaABAg
