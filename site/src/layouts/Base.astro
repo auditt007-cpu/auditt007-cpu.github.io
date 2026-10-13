@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import { LANGS, SITE_NAME, SITE_URL, localizedPath, type Lang } from '../config/site';
 import { UI } from '../config/ui';
+import { contactRows } from '../lib/contact';
 
 export interface Props {
   lang: Lang;
@@ -64,6 +65,7 @@ const switchLangs = LANGS.map((l) => ({ lang: l, path: alternates.find((a) => a.
       <a class="brand" href={localizedPath(lang, '/')}>{SITE_NAME}</a>
       <nav class="site-nav">
         <a href={localizedPath(lang, '/guides')}>{ui.nav_guides}</a>
+        <a href={localizedPath(lang, '/about')}>{ui.nav_about}</a>
         <a class="cta" href={localizedPath(lang, '/inquiry')}>{ui.nav_inquiry}</a>
       </nav>
       <nav class="lang-switch" aria-label="Language">
@@ -76,8 +78,32 @@ const switchLangs = LANGS.map((l) => ({ lang: l, path: alternates.find((a) => a.
       <slot />
     </main>
     <footer class="site-foot">
-      <p>{ui.footer_note}</p>
-      <p>© {new Date(Astro.props.date ?? Date.now()).getFullYear()} {SITE_NAME}</p>
+      <div class="foot-id">
+        <p>{ui.footer_note}</p>
+        <p>
+          © {new Date(Astro.props.date ?? Date.now()).getFullYear()} {SITE_NAME}
+          {' · '}
+          <a href={localizedPath(lang, '/about')}>{ui.nav_about}</a>
+        </p>
+      </div>
+      <ul class="foot-contact">
+        {contactRows(lang).map((row) => (
+          <li>
+            <span class="foot-label">{row.label}</span>
+            {row.href
+              ? (
+                <a
+                  href={row.href}
+                  rel="noopener"
+                  target={row.href.startsWith('mailto:') ? undefined : '_blank'}
+                >
+                  {row.value}
+                </a>
+              )
+              : <span>{row.value}</span>}
+          </li>
+        ))}
+      </ul>
     </footer>
   </body>
 </html>

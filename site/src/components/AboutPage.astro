@@ -1,0 +1,72 @@
+---
+import Base from '../layouts/Base.astro';
+import { ABOUT } from '../config/about';
+import { assetUrl, AUTHOR, localizedPath, type Lang } from '../config/site';
+import { UI } from '../config/ui';
+import { contactRows } from '../lib/contact';
+import { aboutJsonLd, businessJsonLd, personJsonLd } from '../lib/seo';
+
+export interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const ui = UI[lang];
+const about = ABOUT[lang];
+const path = localizedPath(lang, '/about');
+const alternates = (['en', 'ru', 'ar'] as const).map((l) => ({ lang: l, path: localizedPath(l, '/about') }));
+const authorImage = assetUrl(AUTHOR.image);
+---
+
+<Base
+  lang={lang}
+  title={about.meta_title}
+  description={about.meta_description}
+  path={path}
+  alternates={alternates}
+  ogImage={authorImage}
+  jsonLd={[businessJsonLd(), personJsonLd(lang), aboutJsonLd(lang, path)]}
+>
+  <article class="about">
+    <h1>{about.h1}</h1>
+    <p class="lede">{about.who}</p>
+
+    <section class="author">
+      <img src={authorImage} alt={`${AUTHOR.name} — ${about.author_role}`} width="112" height="112" decoding="async" />
+      <div>
+        <p class="author-name">{AUTHOR.name}</p>
+        <p class="author-role">{about.author_role}</p>
+        <p>{about.author_bio}</p>
+      </div>
+    </section>
+
+    <h2>{about.services_heading}</h2>
+    <ul class="about-services">
+      {about.services.map((s) => (
+        <li>
+          <h3>{s.name}</h3>
+          <p>{s.body}</p>
+        </li>
+      ))}
+    </ul>
+
+    <h2>{about.office_heading}</h2>
+    <ul class="about-facts">
+      {about.office_lines.map((line) => <li>{line}</li>)}
+    </ul>
+
+    <h2>{ui.contact_heading}</h2>
+    <dl class="about-contact">
+      {contactRows(lang).map((row) => (
+        <>
+          <dt>{row.label}</dt>
+          <dd>
+            {row.href ? <a href={row.href} rel="noopener" target={row.href.startsWith('mailto:') ? undefined : '_blank'}>{row.value}</a> : row.value}
+          </dd>
+        </>
+      ))}
+    </dl>
+
+    <p><a class="cta" href={localizedPath(lang, '/inquiry')}>{about.cta} →</a></p>
+  </article>
+</Base>

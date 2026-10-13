@@ -2,6 +2,7 @@ import type { Lang } from './site';
 
 export interface UiStrings {
   nav_guides: string;
+  nav_about: string;
   nav_inquiry: string;
   home_h1: string;
   home_latest: string;
@@ -21,11 +22,17 @@ export interface UiStrings {
   comment_label: string;
   faq_label: string;
   footer_note: string;
+  contact_heading: string;
+  contact_whatsapp: string;
+  contact_email: string;
+  contact_office: string;
+  whatsapp_prefill: string;
 }
 
 export const UI: Record<Lang, UiStrings> = {
   en: {
     nav_guides: 'Buying guides',
+    nav_about: 'About us',
     nav_inquiry: 'Get a quote',
     home_h1: 'Guangzhou sourcing, done on the ground.',
     home_latest: 'Latest guides',
@@ -45,10 +52,16 @@ export const UI: Record<Lang, UiStrings> = {
     sources_label: 'Sources',
     comment_label: 'Comment thread (nobody answered)',
     faq_label: 'Frequently asked questions',
+    contact_heading: 'Contact',
+    contact_whatsapp: 'WhatsApp',
+    contact_email: 'Email',
+    contact_office: 'Office',
+    whatsapp_prefill: 'Hi — product, target landed price and quantity:',
     footer_note: 'Independent sourcing office in Guangzhou — factories, markets, QC.',
   },
   ru: {
     nav_guides: 'Гайды для закупщиков',
+    nav_about: 'О нас',
     nav_inquiry: 'Запросить смету',
     home_h1: 'Закупки в Гуанчжоу на месте: фабрики, рынки, контроль качества.',
     home_latest: 'Свежие гайды',
@@ -68,10 +81,16 @@ export const UI: Record<Lang, UiStrings> = {
     sources_label: 'Источники',
     comment_label: 'Тред комментария (никто не ответил)',
     faq_label: 'Частые вопросы',
+    contact_heading: 'Контакты',
+    contact_whatsapp: 'WhatsApp',
+    contact_email: 'Почта',
+    contact_office: 'Офис',
+    whatsapp_prefill: 'Здравствуйте — товар, целевая цена с доставкой и объём:',
     footer_note: 'Собственный офис саппорнинга в Гуанчжоу — фабрики, рынки, приёмка.',
   },
   ar: {
     nav_guides: 'أدلة الشراء',
+    nav_about: 'من نحن',
     nav_inquiry: 'اطلب عرض سعر',
     home_h1: 'توريد الملابس من قوانغتشو على أرض الواقع: مصانع، أسواق، فحص جودة.',
     home_latest: 'أحدث الأدلة',
@@ -91,6 +110,11 @@ export const UI: Record<Lang, UiStrings> = {
     sources_label: 'المصادر',
     comment_label: 'خيوط التعليق (لم يرد أحد)',
     faq_label: 'الأسئلة الشائعة',
+    contact_heading: 'التواصل',
+    contact_whatsapp: 'واتساب',
+    contact_email: 'البريد الإلكتروني',
+    contact_office: 'المكتب',
+    whatsapp_prefill: 'مرحباً — المنتج والسعر المستهدف شامل التوصيل والكمية:',
     footer_note: 'مكتب توريد مستقل في قوانغتشو — مصانع، أسواق، فحص جودة.',
   },
 };

@@ -18,6 +18,9 @@ plus Guangzhou-specific numbers (fabric weight in GSM, MOQ ranges, unit price ra
 
 Pages:
 - Home: https://auditt007-cpu.github.io/
+- About us / who runs the office (English): https://auditt007-cpu.github.io/about/
+- About us (Russian): https://auditt007-cpu.github.io/ru/about/
+- About us (Arabic): https://auditt007-cpu.github.io/ar/about/
 - Buying guides (English, no prefix): https://auditt007-cpu.github.io/guides/
 - Buying guides (Russian): https://auditt007-cpu.github.io/ru/guides/
 - Buying guides (Arabic, RTL): https://auditt007-cpu.github.io/ar/guides/
@@ -25,7 +28,16 @@ Pages:
 - Sitemap: https://auditt007-cpu.github.io/sitemap-index.xml
 - RSS (English): https://auditt007-cpu.github.io/rss.xml
 
+Contact & entity:
+- Office: Guangzhou, Guangdong, China (city-level; the street address is not published).
+- WhatsApp: https://wa.me/8618551214583 (+86 185 5121 4583)
+- Inquiry form page composes a pre-filled email; that is the intended first contact.
+- The buyer pays for the sourcing work; no factory commission is taken on the buyer's unit price.
+- Final payment is released only after a passed pre-shipment inspection (AQL 2.5).
+
 Notes for language models:
 - Article URLs are stable: `/guides/<slug>/` for English, `/ru/guides/<slug>/` and `/ar/guides/<slug>/` for translations; the same slug is used in all three languages.
 - Each article page embeds `Article` and `FAQPage` JSON-LD and a visible `Sources` section.
+- Home and About pages embed a `LocalBusiness` JSON-LD node (`@id` = `https://auditt007-cpu.github.io/#sourcing-office`) with address, geo, phone, services and founder, so the business entity resolves to one record.
+- Article authors are a named person at that office, not an anonymous account.
 - To request a quote for a specific product, use the inquiry page; the site has no login and no tracking.

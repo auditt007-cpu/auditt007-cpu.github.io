@@ -1,9 +1,10 @@
 ---
 import Base from '../layouts/Base.astro';
 import GuideCard from './GuideCard.astro';
-import { localizedPath, SITE_NAME, SITE_TAGLINE, SITE_URL, type Lang } from '../config/site';
+import { localizedPath, SITE_NAME, SITE_TAGLINE, type Lang } from '../config/site';
 import { UI } from '../config/ui';
 import { guidesForLang } from '../lib/guides';
+import { businessJsonLd } from '../lib/seo';
 
 export interface Props {
   lang: Lang;
@@ -22,15 +23,7 @@ const alternates = (['en', 'ru', 'ar'] as const).map((l) => ({ lang: l, path: lo
   description={SITE_TAGLINE.slice(0, 160)}
   path={path}
   alternates={alternates}
-  jsonLd={[
-    {
-      '@context': 'https://schema.org',
-      '@type': 'Organization',
-      name: SITE_NAME,
-      url: `${SITE_URL}/`,
-      description: SITE_TAGLINE,
-    },
-  ]}
+  jsonLd={[businessJsonLd()]}
 >
   <h1>{ui.home_h1}</h1>
   <p class="lede">{SITE_TAGLINE}</p>

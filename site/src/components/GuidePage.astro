@@ -1,10 +1,11 @@
 ---
 import Base from '../layouts/Base.astro';
 import { render } from 'astro:content';
-import { articlePath, localizedPath, SITE_NAME, type Lang } from '../config/site';
+import { ABOUT } from '../config/about';
+import { articlePath, assetUrl, AUTHOR, localizedPath, SITE_NAME, type Lang } from '../config/site';
 import { UI } from '../config/ui';
 import { alternatesFor, guidesBySlug } from '../lib/guides';
-import { articleJsonLd, faqJsonLd, heroUrl } from '../lib/seo';
+import { articleJsonLd, businessJsonLd, faqJsonLd, heroUrl } from '../lib/seo';
 
 export interface Props {
   lang: Lang;
@@ -25,6 +26,7 @@ const alternates = alternatesFor(versions);
 const hero = heroUrl(guide);
 const day = date.toISOString().slice(0, 10);
 const funnelLabel = funnel === 'bottom' ? ui.funnel_bottom : funnel === 'mid' ? ui.funnel_mid : ui.funnel_top;
+const authorImage = assetUrl(AUTHOR.image);
 /** §3 puts `## Sources` in the body; the block below is the fallback so a source link is never missing. */
 const bodyHasSources = headings.some((h) =>
   ['sources', 'источники', 'المصادر'].includes(String(h.text ?? h.slug ?? '').trim().toLowerCase()),
@@ -39,7 +41,7 @@ const bodyHasSources = headings.some((h) =>
   alternates={alternates}
   ogType="article"
   ogImage={hero}
-  jsonLd={[articleJsonLd(guide, path), faqJsonLd(guide)]}
+  jsonLd={[businessJsonLd(), articleJsonLd(guide, path), faqJsonLd(guide)]}
 >
   <article>
     {hero && (
@@ -49,6 +51,11 @@ const bodyHasSources = headings.some((h) =>
     )}
     <h1>{title}</h1>
     <p class="art-meta">
+      <span class="byline">
+        <img class="avatar" src={authorImage} alt="" width="28" height="28" loading="lazy" decoding="async" />
+        <a href={localizedPath(lang, '/about')}>{AUTHOR.name}</a>
+        <span class="role">{ABOUT[lang].author_role}</span>
+      </span>
       <time datetime={day}>{day}</time>
       <span class="tag">{funnelLabel}</span>
       <span class="tag">{intent}</span>

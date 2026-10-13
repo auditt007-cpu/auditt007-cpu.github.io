@@ -79,3 +79,36 @@ h2 { font-size: 1.25rem; margin: 2.25rem 0 0.75rem; border-block-start: 1px soli
 .keywords { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-block-start: 1.5rem; }
 .funnel-group { margin-block-start: 0.5rem; }
 .hero figcaption { font-size: 0.78rem; color: var(--muted); padding: 0.4rem 0.6rem; border-block-start: 1px solid var(--line); }
+
+/* Footer contact block */
+.site-foot { align-items: flex-start; }
+.foot-id p { margin: 0 0 0.3rem; }
+.foot-contact { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.25rem; }
+.foot-label { color: var(--ink); font-weight: 600; margin-inline-end: 0.45rem; }
+
+/* About page */
+.author {
+  display: flex; align-items: center; gap: 1rem; max-width: 44rem;
+  border: 1px solid var(--line); background: #fff; padding: 1rem; margin-block-start: 1.5rem;
+}
+.author img { width: 112px; height: 112px; border-radius: 50%; object-fit: cover; flex: 0 0 auto; }
+.author-name { font-weight: 700; margin: 0; }
+.author-role { color: var(--muted); font-size: 0.85rem; margin: 0.1rem 0 0.4rem; }
+.author div p:last-child { margin: 0; font-size: 0.92rem; }
+.about-services {
+  list-style: none; padding: 0; margin: 1rem 0 0;
+  display: grid; gap: 0.75rem; grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+}
+.about-services li { border: 1px solid var(--line); background: #fff; padding: 0.9rem 1rem; }
+.about-services h3 { margin: 0 0 0.35rem; font-size: 0.98rem; }
+.about-services p { margin: 0; color: var(--muted); font-size: 0.92rem; }
+.about-facts { list-style: none; padding: 0; margin: 1rem 0 0; }
+.about-facts li { border-block-start: 1px solid var(--line); padding: 0.5rem 0; }
+.about-contact { display: grid; grid-template-columns: max-content 1fr; gap: 0.35rem 1.25rem; margin: 1rem 0 0; }
+.about-contact dt { font-weight: 600; }
+.about-contact dd { margin: 0; }
+
+/* Article byline */
+.byline { display: inline-flex; align-items: center; gap: 0.45rem; }
+.byline .avatar { width: 28px; height: 28px; border-radius: 50%; object-fit: cover; }
+.byline .role { color: var(--muted); }

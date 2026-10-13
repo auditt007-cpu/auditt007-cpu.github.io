@@ -1,0 +1,10 @@
+---
+import AboutPage from '../../components/AboutPage.astro';
+import { LANGS, type Lang } from '../../config/site';
+
+export function getStaticPaths() {
+  return LANGS.filter((l) => l !== 'en').map((lang) => ({ params: { lang: lang as Lang } }));
+}
+---
+
+<AboutPage lang={Astro.params.lang as Lang} />
