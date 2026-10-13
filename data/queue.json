@@ -1,117 +1,56 @@
 {
-  "generated_at": "2026-10-12T21:22:05Z",
+  "generated_at": "2026-10-13T20:04:05Z",
   "candidates": [
     {
-      "term": "most sources say size up now your telling me to size down",
-      "vid": "7aHmIZHyUp0",
-      "cid": "Ugz17TN7iAoMwrLZ9pl4AaABAg",
-      "question": "Most sources say size up now your telling me to size down?",
-      "source_url": "https://www.youtube.com/watch?v=7aHmIZHyUp0",
-      "comment_url": "https://www.youtube.com/watch?v=7aHmIZHyUp0&lc=Ugz17TN7iAoMwrLZ9pl4AaABAg",
-      "votes": 15,
-      "funnel": "top",
-      "intent": "awareness",
-      "inject_terms": [
-        "fabric gsm size",
-        "fabric gsm cutter size",
-        "tech pack zip up"
-      ],
-      "score": 27.0
-    },
-    {
-      "term": "please share any tips on how to create a tech pack also the difference between finding a manufacturer and doing a print on demand",
-      "vid": "J1RH--WIMD8",
-      "cid": "UgxQb_PmC3e-ksRf4p14AaABAg",
-      "question": "Please share any tips on how to create a tech pack. Also the difference between finding a manufacturer and doing a print on demand",
-      "source_url": "https://www.youtube.com/watch?v=J1RH--WIMD8",
-      "comment_url": "https://www.youtube.com/watch?v=J1RH--WIMD8&lc=UgxQb_PmC3e-ksRf4p14AaABAg",
-      "votes": 14,
-      "funnel": "mid",
+      "term": "will my chinese supplier just steal my designs abd flood the market with lower prices",
+      "vid": "aNZ3iJltgqQ",
+      "cid": "UgyYXR6D7fAIiZ8RPwp4AaABAg",
+      "question": "will my Chinese supplier just steal my designs abd flood the market with lower prices?",
+      "source_url": "https://www.youtube.com/watch?v=aNZ3iJltgqQ",
+      "comment_url": "https://www.youtube.com/watch?v=aNZ3iJltgqQ&lc=UgyYXR6D7fAIiZ8RPwp4AaABAg",
+      "votes": 34,
+      "funnel": "bottom",
       "intent": "supplier-hunt",
       "inject_terms": [
+        "chinese streetwear brands",
+        "chinese street fashion brands",
+        "quality inspection in chinese",
+        "quality inspector in chinese"
+      ],
+      "score": 46.0
+    },
+    {
+      "term": "can you add a detailed video on preparing the tech pack please",
+      "vid": "AKlbDssE-kQ",
+      "cid": "Ugw4F53kRbspACHbyLh4AaABAg",
+      "question": "Can you add a detailed video on preparing the tech pack, please?",
+      "source_url": "https://www.youtube.com/watch?v=AKlbDssE-kQ",
+      "comment_url": "https://www.youtube.com/watch?v=AKlbDssE-kQ&lc=Ugw4F53kRbspACHbyLh4AaABAg",
+      "votes": 20,
+      "funnel": "mid",
+      "intent": "spec",
+      "inject_terms": [
         "tech pack",
-        "tech pack for manufacturer",
         "07 tech pack",
         "are tech pack",
         "tech pack #1",
-        "tech pack 101"
+        "tech pack 101",
+        "tech pack 11"
       ],
-      "score": 26.0
+      "score": 32.0
     },
     {
-      "term": "can you share your favorite online fabric stores",
-      "vid": "p_vnwgtJLz4",
-      "cid": "UgxhXqRo-_Bf5aMGUCt4AaABAg",
-      "question": "Can you share your favorite online fabric stores?",
-      "source_url": "https://www.youtube.com/watch?v=p_vnwgtJLz4",
-      "comment_url": "https://www.youtube.com/watch?v=p_vnwgtJLz4&lc=UgxhXqRo-_Bf5aMGUCt4AaABAg",
-      "votes": 12,
-      "funnel": "mid",
-      "intent": "spec",
-      "inject_terms": [
-        "fabric gsm calculator online",
-        "fabric gsm",
-        "denim fabric gsm",
-        "duck fabric gsm",
-        "eyelet fabric gsm",
-        "fabric 100 gsm"
-      ],
-      "score": 24.0
-    },
-    {
-      "term": "when working with a factory in china or us should i have a patent prior to working with the factory do factories in china ever steel ideas and just start manufa",
-      "vid": "RBj6vLKtsdA",
-      "cid": "UgyysqqV4pGe3oDqnT54AaABAg",
-      "question": "When working with a factory (in China or US) should I have a patent prior to working with the factory? Do factories in China ever steel ideas and just start manufacturing your product for resale by others?",
-      "source_url": "https://www.youtube.com/watch?v=RBj6vLKtsdA",
-      "comment_url": "https://www.youtube.com/watch?v=RBj6vLKtsdA&lc=UgyysqqV4pGe3oDqnT54AaABAg",
-      "votes": 12,
-      "funnel": "mid",
-      "intent": "supplier-hunt",
-      "inject_terms": [
-        "quality control china manufacturing",
-        "quality check china",
-        "quality control china",
-        "quality inspection china",
-        "quality inspector china",
-        "china quality inspection association"
-      ],
-      "score": 24.0
-    },
-    {
-      "term": "now that i know the gsm of them what do i do the holes in all my clothes",
-      "vid": "BRLdyiqXPE4",
-      "cid": "UgzTOU_KXyZr-zrqBT94AaABAg",
-      "question": "Now that i know the gsm of them, what do i do the holes in all my clothes?!",
-      "source_url": "https://www.youtube.com/watch?v=BRLdyiqXPE4",
-      "comment_url": "https://www.youtube.com/watch?v=BRLdyiqXPE4&lc=UgzTOU_KXyZr-zrqBT94AaABAg",
-      "votes": 10,
-      "funnel": "mid",
-      "intent": "risk",
-      "inject_terms": [
-        "fabric gsm",
-        "best cloth gsm",
-        "cloth bag gsm",
-        "cloth in gsm",
-        "cloth quality gsm",
-        "denim fabric gsm"
-      ],
-      "score": 22.0
-    },
-    {
-      "term": "who exactly is making these garments slaves indentured servants eight year olds is there any mechanism in place to address concerns along the supply chain are t",
-      "vid": "BchjB1xFJ88",
-      "cid": "Ugx09AlbQIIZc5VQ01d4AaABAg",
-      "question": "Who exactly is making these garments? Slaves/indentured servants? Eight year olds? Is there any mechanism in place to address concerns along the supply chain? Are there ever any discussions regarding sourcing of materials by these trading companies?",
-      "source_url": "https://www.youtube.com/watch?v=BchjB1xFJ88",
-      "comment_url": "https://www.youtube.com/watch?v=BchjB1xFJ88&lc=Ugx09AlbQIIZc5VQ01d4AaABAg",
-      "votes": 9,
+      "term": "what should i do if i want to get goods from alibaba for personal use",
+      "vid": "yTF1QGgA6k0",
+      "cid": "UgxbDwrpbAUTkUcH-pB4AaABAg",
+      "question": "What should i do if i want to get goods from alibaba for personal use?",
+      "source_url": "https://www.youtube.com/watch?v=yTF1QGgA6k0",
+      "comment_url": "https://www.youtube.com/watch?v=yTF1QGgA6k0&lc=UgxbDwrpbAUTkUcH-pB4AaABAg",
+      "votes": 8,
       "funnel": "top",
-      "intent": "spec",
-      "inject_terms": [
-        "shisanhang wholesale sourcing agent"
-      ],
-      "score": 21.0
+      "intent": "awareness",
+      "inject_terms": [],
+      "score": 20.0
     },
     {
       "term": "what should your ideal price be for manufacturers for a 1 piece hoodie or t shirt",
@@ -126,27 +65,137 @@
       "inject_terms": [
         "private label hoodie manufacturers",
         "tech pack t shirt",
+        "gsm cloth price",
         "gsm fabric hoodie",
         "gsm fabric price",
-        "gsm fabric shirt",
-        "tech pack #1"
+        "gsm fabric shirt"
       ],
       "score": 19.0
     },
     {
-      "term": "could you please create a more detailed video on manufacturing and order processing shipping",
-      "vid": "KRRIL_FerrI",
-      "cid": "UgzTbOPZO0f8wH-65a94AaABAg",
-      "question": "Could you please create a more detailed video on manufacturing and order processing (shipping)?",
-      "source_url": "https://www.youtube.com/watch?v=KRRIL_FerrI",
-      "comment_url": "https://www.youtube.com/watch?v=KRRIL_FerrI&lc=UgzTbOPZO0f8wH-65a94AaABAg",
-      "votes": 6,
-      "funnel": "bottom",
+      "term": "are the tariffs down",
+      "vid": "aNZ3iJltgqQ",
+      "cid": "Ugwb9IU8z5y3I3RgIYd4AaABAg",
+      "question": "Are the tariffs down?",
+      "source_url": "https://www.youtube.com/watch?v=aNZ3iJltgqQ",
+      "comment_url": "https://www.youtube.com/watch?v=aNZ3iJltgqQ&lc=Ugwb9IU8z5y3I3RgIYd4AaABAg",
+      "votes": 5,
+      "funnel": "mid",
+      "intent": "logistics",
+      "inject_terms": [],
+      "score": 17.0
+    },
+    {
+      "term": "i want it to look like my mock up what is your moq_ what is you tournaround time and what is your sample cost thank you",
+      "vid": "5ZrEBf_6-G4",
+      "cid": "Ugy0ZN3yW_dBmTar2dN4AaABAg",
+      "question": "I want it to look like my mock-up what is your moq_ What is you tournaround time and what is your sample cost.?Thank you",
+      "source_url": "https://www.youtube.com/watch?v=5ZrEBf_6-G4",
+      "comment_url": "https://www.youtube.com/watch?v=5ZrEBf_6-G4&lc=Ugy0ZN3yW_dBmTar2dN4AaABAg",
+      "votes": 5,
+      "funnel": "mid",
+      "intent": "transaction",
+      "inject_terms": [
+        "clothing manufacturer low moq",
+        "clothing manufacturer small moq",
+        "fabric gsm sample book",
+        "garment manufacturer low moq",
+        "tech pack sample pdf",
+        "tech pack zip up"
+      ],
+      "score": 17.0
+    },
+    {
+      "term": "would that be chances that i could be your local sourcing partner in yiwu",
+      "vid": "3AOTrKv1Phw",
+      "cid": "UgyRk7takDUkfw8rpRl4AaABAg",
+      "question": "Would that be chances that I could be your local sourcing partner in Yiwu?",
+      "source_url": "https://www.youtube.com/watch?v=3AOTrKv1Phw",
+      "comment_url": "https://www.youtube.com/watch?v=3AOTrKv1Phw&lc=UgyRk7takDUkfw8rpRl4AaABAg",
+      "votes": 1,
+      "funnel": "top",
+      "intent": "awareness",
+      "inject_terms": [
+        "shisanhang wholesale sourcing agent"
+      ],
+      "score": 16.0
+    },
+    {
+      "term": "can you do a video about shipping the product to customers what to include please more details",
+      "vid": "AKlbDssE-kQ",
+      "cid": "Ugx8ImF6ms_v23ySgBV4AaABAg",
+      "question": "Can you do a video about shipping the product to customers what to include please more details",
+      "source_url": "https://www.youtube.com/watch?v=AKlbDssE-kQ",
+      "comment_url": "https://www.youtube.com/watch?v=AKlbDssE-kQ&lc=Ugx8ImF6ms_v23ySgBV4AaABAg",
+      "votes": 3,
+      "funnel": "mid",
       "intent": "logistics",
       "inject_terms": [
-        "quality control china manufacturing"
+        "fabric gsm details",
+        "tech pack construction details"
       ],
-      "score": 18.0
+      "score": 15.0
+    },
+    {
+      "term": "what if i wanted to make 10 hoodies does that mean the manufacture guy had to make 10 for me",
+      "vid": "5ZrEBf_6-G4",
+      "cid": "UgyyZYyPIqiJhyR0nVh4AaABAg",
+      "question": "What if I wanted to make 10 hoodies does that mean the manufacture guy had to make 10 for me?",
+      "source_url": "https://www.youtube.com/watch?v=5ZrEBf_6-G4",
+      "comment_url": "https://www.youtube.com/watch?v=5ZrEBf_6-G4&lc=UgyyZYyPIqiJhyR0nVh4AaABAg",
+      "votes": 3,
+      "funnel": "top",
+      "intent": "spec",
+      "inject_terms": [],
+      "score": 15.0
+    },
+    {
+      "term": "would you mind make a video of how to get good suppliers of fabrics",
+      "vid": "aNZ3iJltgqQ",
+      "cid": "UgxmisRfp1lwKTmDyUd4AaABAg",
+      "question": "Would you mind make a video of how to get good suppliers of fabrics?",
+      "source_url": "https://www.youtube.com/watch?v=aNZ3iJltgqQ",
+      "comment_url": "https://www.youtube.com/watch?v=aNZ3iJltgqQ&lc=UgxmisRfp1lwKTmDyUd4AaABAg",
+      "votes": 3,
+      "funnel": "mid",
+      "intent": "supplier-hunt",
+      "inject_terms": [
+        "good fabric gsm"
+      ],
+      "score": 15.0
+    },
+    {
+      "term": "am i the only one who is struggling with alibaba",
+      "vid": "AKlbDssE-kQ",
+      "cid": "UgwnLo2UFO6W9XPA0OV4AaABAg",
+      "question": "Am I the only one who is struggling with Alibaba?",
+      "source_url": "https://www.youtube.com/watch?v=AKlbDssE-kQ",
+      "comment_url": "https://www.youtube.com/watch?v=AKlbDssE-kQ&lc=UgwnLo2UFO6W9XPA0OV4AaABAg",
+      "votes": 2,
+      "funnel": "top",
+      "intent": "awareness",
+      "inject_terms": [],
+      "score": 14.0
+    },
+    {
+      "term": "does anyone reading this know how i can get a manufacturer to use the exact same fabrics from a brand i like on a hoodie i want to create",
+      "vid": "5ZrEBf_6-G4",
+      "cid": "UgxiiAe1BdjdPODDaHh4AaABAg",
+      "question": "does anyone reading this know how i can get a manufacturer to use the EXACT same fabrics from a brand i like on a hoodie i want to create?",
+      "source_url": "https://www.youtube.com/watch?v=5ZrEBf_6-G4",
+      "comment_url": "https://www.youtube.com/watch?v=5ZrEBf_6-G4&lc=UgxiiAe1BdjdPODDaHh4AaABAg",
+      "votes": 2,
+      "funnel": "bottom",
+      "intent": "supplier-hunt",
+      "inject_terms": [
+        "private label hoodie manufacturer",
+        "gsm fabric hoodie",
+        "guangzhou streetwear manufacturer",
+        "tech pack hoodie",
+        "300 gsm fabric hoodie",
+        "350 gsm fabric hoodie"
+      ],
+      "score": 14.0
     }
   ]
 }
