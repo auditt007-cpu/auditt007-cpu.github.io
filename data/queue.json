@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T21:12:31Z",
+  "generated_at": "2026-10-15T21:10:58Z",
   "candidates": [
     {
       "term": "will my chinese supplier just steal my designs abd flood the market with lower prices",
@@ -18,6 +18,25 @@
         "quality inspector in chinese"
       ],
       "score": 46.0
+    },
+    {
+      "term": "23 03 what about t shirt fits for women's shirts",
+      "vid": "CMoZjcpgivM",
+      "cid": "Ugx-f7Fv8vCQ16TEbot4AaABAg",
+      "question": "23:03 - what about t-shirt fits for women's shirts?",
+      "source_url": "https://www.youtube.com/watch?v=CMoZjcpgivM",
+      "comment_url": "https://www.youtube.com/watch?v=CMoZjcpgivM&lc=Ugx-f7Fv8vCQ16TEbot4AaABAg",
+      "votes": 27,
+      "funnel": "top",
+      "intent": "awareness",
+      "inject_terms": [
+        "tech pack t shirt",
+        "gsm fabric shirt",
+        "tech pack shirt",
+        "tech pack of shirt",
+        "tech pack shirt template"
+      ],
+      "score": 39.0
     },
     {
       "term": "a series on how to buy fabric online",
@@ -40,6 +59,26 @@
       "score": 38.0
     },
     {
+      "term": "also is there a video for good cheap tshirt brands with good fabric for essentials",
+      "vid": "CMoZjcpgivM",
+      "cid": "UgwCLc47pxRgW488quV4AaABAg",
+      "question": "also is there a video for good cheap tshirt brands with good fabric for essentials?",
+      "source_url": "https://www.youtube.com/watch?v=CMoZjcpgivM",
+      "comment_url": "https://www.youtube.com/watch?v=CMoZjcpgivM&lc=UgwCLc47pxRgW488quV4AaABAg",
+      "votes": 26,
+      "funnel": "top",
+      "intent": "spec",
+      "inject_terms": [
+        "good fabric gsm",
+        "fabric gsm",
+        "chinese streetwear brands",
+        "duck fabric gsm",
+        "eyelet fabric gsm",
+        "fabric 100 gsm"
+      ],
+      "score": 38.0
+    },
+    {
       "term": "can you add a detailed video on preparing the tech pack please",
       "vid": "AKlbDssE-kQ",
       "cid": "Ugw4F53kRbspACHbyLh4AaABAg",
@@ -56,6 +95,23 @@
         "tech pack #1",
         "tech pack 101",
         "tech pack 11"
+      ],
+      "score": 32.0
+    },
+    {
+      "term": "can you please make a guide on how to properly care for garments to ensure they last as long as possible",
+      "vid": "CMoZjcpgivM",
+      "cid": "UgyukxAxRLI8K4ikRvN4AaABAg",
+      "question": "Can you please make a guide on how to properly care for garments to ensure they last as long as possible?",
+      "source_url": "https://www.youtube.com/watch?v=CMoZjcpgivM",
+      "comment_url": "https://www.youtube.com/watch?v=CMoZjcpgivM&lc=UgyukxAxRLI8K4ikRvN4AaABAg",
+      "votes": 20,
+      "funnel": "mid",
+      "intent": "spec",
+      "inject_terms": [
+        "fabric gsm guide",
+        "tech pack guide",
+        "tech pack long sleeve"
       ],
       "score": 32.0
     },
@@ -170,52 +226,6 @@
         "china quality inspection association"
       ],
       "score": 24.0
-    },
-    {
-      "term": "what should i do if i want to get goods from alibaba for personal use",
-      "vid": "yTF1QGgA6k0",
-      "cid": "UgxbDwrpbAUTkUcH-pB4AaABAg",
-      "question": "What should i do if i want to get goods from alibaba for personal use?",
-      "source_url": "https://www.youtube.com/watch?v=yTF1QGgA6k0",
-      "comment_url": "https://www.youtube.com/watch?v=yTF1QGgA6k0&lc=UgxbDwrpbAUTkUcH-pB4AaABAg",
-      "votes": 8,
-      "funnel": "top",
-      "intent": "awareness",
-      "inject_terms": [],
-      "score": 20.0
-    },
-    {
-      "term": "but would i still be responsible for shipping",
-      "vid": "c--Tqp_qQ00",
-      "cid": "Ugz2y6sSqo8_zWA68QB4AaABAg",
-      "question": "but would I still be responsible for shipping?",
-      "source_url": "https://www.youtube.com/watch?v=c--Tqp_qQ00",
-      "comment_url": "https://www.youtube.com/watch?v=c--Tqp_qQ00&lc=Ugz2y6sSqo8_zWA68QB4AaABAg",
-      "votes": 7,
-      "funnel": "top",
-      "intent": "logistics",
-      "inject_terms": [],
-      "score": 19.0
-    },
-    {
-      "term": "what should your ideal price be for manufacturers for a 1 piece hoodie or t shirt",
-      "vid": "5ZrEBf_6-G4",
-      "cid": "Ugyc5PJrdLdKydA6LEJ4AaABAg",
-      "question": "What should your ideal price be for manufacturers for a 1 piece hoodie or t shirt?",
-      "source_url": "https://www.youtube.com/watch?v=5ZrEBf_6-G4",
-      "comment_url": "https://www.youtube.com/watch?v=5ZrEBf_6-G4&lc=Ugyc5PJrdLdKydA6LEJ4AaABAg",
-      "votes": 7,
-      "funnel": "bottom",
-      "intent": "supplier-hunt",
-      "inject_terms": [
-        "private label hoodie manufacturers",
-        "tech pack t shirt",
-        "gsm fabric hoodie",
-        "gsm fabric price",
-        "gsm fabric shirt",
-        "tech pack #1"
-      ],
-      "score": 19.0
     }
   ]
 }
