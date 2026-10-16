@@ -271,5 +271,26 @@
     "lang": "ar",
     "published_at": "2026-10-15T21:41:41Z",
     "path": "site/src/content/guides/ar/video-good-cheap-tshirt-brands-good-fabric-essentials.md"
+  },
+  {
+    "term": "can you please make a guide on how to properly care for garments to ensure they last as long as possible",
+    "slug": "make-guide-properly-care-garments-ensure-last-long-possible",
+    "lang": "en",
+    "published_at": "2026-10-16T21:41:05Z",
+    "path": "site/src/content/guides/en/make-guide-properly-care-garments-ensure-last-long-possible.md"
+  },
+  {
+    "term": "can you please make a guide on how to properly care for garments to ensure they last as long as possible",
+    "slug": "make-guide-properly-care-garments-ensure-last-long-possible",
+    "lang": "ru",
+    "published_at": "2026-10-16T21:41:05Z",
+    "path": "site/src/content/guides/ru/make-guide-properly-care-garments-ensure-last-long-possible.md"
+  },
+  {
+    "term": "can you please make a guide on how to properly care for garments to ensure they last as long as possible",
+    "slug": "make-guide-properly-care-garments-ensure-last-long-possible",
+    "lang": "ar",
+    "published_at": "2026-10-16T21:41:05Z",
+    "path": "site/src/content/guides/ar/make-guide-properly-care-garments-ensure-last-long-possible.md"
   }
 ]
