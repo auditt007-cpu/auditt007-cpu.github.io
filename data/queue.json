@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T21:14:06Z",
+  "generated_at": "2026-10-19T21:11:17Z",
   "candidates": [
     {
       "term": "will my chinese supplier just steal my designs abd flood the market with lower prices",
@@ -137,7 +137,7 @@
       "question": "How did you find your supplier in China?",
       "source_url": "https://www.youtube.com/watch?v=RBj6vLKtsdA",
       "comment_url": "https://www.youtube.com/watch?v=RBj6vLKtsdA&lc=UgxInQaYYYA_UPpj_Vl4AaABAg",
-      "votes": 18,
+      "votes": 19,
       "funnel": "bottom",
       "intent": "supplier-hunt",
       "inject_terms": [
@@ -148,7 +148,7 @@
         "china quality inspection association",
         "quality check in china"
       ],
-      "score": 30.0
+      "score": 31.0
     },
     {
       "term": "most sources say size up now your telling me to size down",
