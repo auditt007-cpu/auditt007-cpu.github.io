@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-10-19T21:11:17Z",
+  "generated_at": "2026-10-20T21:12:17Z",
   "candidates": [
+    {
+      "term": "this was a great topic next can we also talk about fiber vs fabric or weave bc so many people are confused about the word satin a fabric that can be made from s",
+      "vid": "xkOPrvv9jbU",
+      "cid": "UgzP74dXSZSmcXA2iy14AaABAg",
+      "question": "This was a great topic! Next can we also talk about FIBER vs FABRIC (or weave) bc so many people are confused about the word satin, a fabric that can be made from silk or polyester (or even cotton although then they call it sateen). Velvet used to only be made from silk, then polyester or acetate an",
+      "source_url": "https://www.youtube.com/watch?v=xkOPrvv9jbU",
+      "comment_url": "https://www.youtube.com/watch?v=xkOPrvv9jbU&lc=UgzP74dXSZSmcXA2iy14AaABAg",
+      "votes": 86,
+      "funnel": "mid",
+      "intent": "spec",
+      "inject_terms": [
+        "velvet fabric gsm",
+        "best cotton fabric gsm",
+        "cotton fabric gsm 200",
+        "fabric denier vs gsm",
+        "fabric gsm vs oz",
+        "fabric weight vs gsm"
+      ],
+      "score": 98.0
+    },
     {
       "term": "will my chinese supplier just steal my designs abd flood the market with lower prices",
       "vid": "aNZ3iJltgqQ",
@@ -204,26 +224,6 @@
         "eyelet fabric gsm",
         "fabric 100 gsm",
         "fabric 120 gsm"
-      ],
-      "score": 24.0
-    },
-    {
-      "term": "when working with a factory in china or us should i have a patent prior to working with the factory do factories in china ever steel ideas and just start manufa",
-      "vid": "RBj6vLKtsdA",
-      "cid": "UgyysqqV4pGe3oDqnT54AaABAg",
-      "question": "When working with a factory (in China or US) should I have a patent prior to working with the factory? Do factories in China ever steel ideas and just start manufacturing your product for resale by others?",
-      "source_url": "https://www.youtube.com/watch?v=RBj6vLKtsdA",
-      "comment_url": "https://www.youtube.com/watch?v=RBj6vLKtsdA&lc=UgyysqqV4pGe3oDqnT54AaABAg",
-      "votes": 12,
-      "funnel": "mid",
-      "intent": "supplier-hunt",
-      "inject_terms": [
-        "quality control china manufacturing",
-        "quality check china",
-        "quality inspection china",
-        "quality inspector china",
-        "quality control china",
-        "china quality inspection association"
       ],
       "score": 24.0
     }
