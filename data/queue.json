@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T21:15:06Z",
+  "generated_at": "2026-10-25T21:12:58Z",
   "candidates": [
     {
       "term": "this was a great topic next can we also talk about fiber vs fabric or weave bc so many people are confused about the word satin a fabric that can be made from s",
@@ -99,6 +99,23 @@
       "score": 38.0
     },
     {
+      "term": "can you please make a guide on how to properly care for garments to ensure they last as long as possible",
+      "vid": "CMoZjcpgivM",
+      "cid": "UgyukxAxRLI8K4ikRvN4AaABAg",
+      "question": "Can you please make a guide on how to properly care for garments to ensure they last as long as possible?",
+      "source_url": "https://www.youtube.com/watch?v=CMoZjcpgivM",
+      "comment_url": "https://www.youtube.com/watch?v=CMoZjcpgivM&lc=UgyukxAxRLI8K4ikRvN4AaABAg",
+      "votes": 21,
+      "funnel": "mid",
+      "intent": "spec",
+      "inject_terms": [
+        "fabric gsm guide",
+        "tech pack guide",
+        "tech pack long sleeve"
+      ],
+      "score": 33.0
+    },
+    {
       "term": "can you add a detailed video on preparing the tech pack please",
       "vid": "AKlbDssE-kQ",
       "cid": "Ugw4F53kRbspACHbyLh4AaABAg",
@@ -115,23 +132,6 @@
         "tech pack #1",
         "tech pack 101",
         "tech pack 11"
-      ],
-      "score": 32.0
-    },
-    {
-      "term": "can you please make a guide on how to properly care for garments to ensure they last as long as possible",
-      "vid": "CMoZjcpgivM",
-      "cid": "UgyukxAxRLI8K4ikRvN4AaABAg",
-      "question": "Can you please make a guide on how to properly care for garments to ensure they last as long as possible?",
-      "source_url": "https://www.youtube.com/watch?v=CMoZjcpgivM",
-      "comment_url": "https://www.youtube.com/watch?v=CMoZjcpgivM&lc=UgyukxAxRLI8K4ikRvN4AaABAg",
-      "votes": 20,
-      "funnel": "mid",
-      "intent": "spec",
-      "inject_terms": [
-        "fabric gsm guide",
-        "tech pack guide",
-        "tech pack long sleeve"
       ],
       "score": 32.0
     },
