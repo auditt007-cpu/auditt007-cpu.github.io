@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T21:13:07Z",
+  "generated_at": "2026-10-28T21:15:11Z",
   "candidates": [
     {
       "term": "this was a great topic next can we also talk about fiber vs fabric or weave bc so many people are confused about the word satin a fabric that can be made from s",
@@ -54,7 +54,8 @@
         "gsm fabric shirt",
         "tech pack shirt",
         "tech pack of shirt",
-        "tech pack shirt template"
+        "tech pack shirt template",
+        "best shirt fabric gsm"
       ],
       "score": 39.0
     },
@@ -127,11 +128,11 @@
       "intent": "spec",
       "inject_terms": [
         "tech pack",
-        "07 tech pack",
         "are tech pack",
         "tech pack #1",
         "tech pack 101",
-        "tech pack 11"
+        "tech pack 11",
+        "tech pack 2007"
       ],
       "score": 32.0
     },
@@ -161,12 +162,12 @@
       "funnel": "bottom",
       "intent": "supplier-hunt",
       "inject_terms": [
-        "quality check china",
         "quality inspection china",
         "quality inspector china",
+        "quality check china",
         "quality control china",
-        "china quality inspection association",
-        "quality check in china"
+        "china quality check",
+        "china quality inspection association"
       ],
       "score": 31.0
     },
@@ -200,10 +201,10 @@
       "inject_terms": [
         "tech pack",
         "tech pack for manufacturer",
-        "07 tech pack",
         "are tech pack",
         "tech pack #1",
-        "tech pack 101"
+        "tech pack 101",
+        "tech pack 11"
       ],
       "score": 26.0
     },
