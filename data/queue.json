@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T21:17:44Z",
+  "generated_at": "2026-11-08T21:14:54Z",
   "candidates": [
     {
       "term": "this was a great topic next can we also talk about fiber vs fabric or weave bc so many people are confused about the word satin a fabric that can be made from s",
@@ -117,6 +117,26 @@
       "score": 33.0
     },
     {
+      "term": "what is really sad is that companies push quantity over quality in almost every industry i try and own less and don t rely upon fashion as much as fabric materi",
+      "vid": "BeIkPqpVmE8",
+      "cid": "UgwWwUwBNNyOyxZiR8h4AaABAg",
+      "question": "What is really sad is that companies push quantity over quality in almost every industry. I try and own less and don’t rely upon fashion as much as fabric/material quality to make a garment attractive. That way you enjoy wearing it for longer. Forget brand names. A quality garment pattern, good fabr",
+      "source_url": "https://www.youtube.com/watch?v=BeIkPqpVmE8",
+      "comment_url": "https://www.youtube.com/watch?v=BeIkPqpVmE8&lc=UgwWwUwBNNyOyxZiR8h4AaABAg",
+      "votes": 21,
+      "funnel": "mid",
+      "intent": "risk",
+      "inject_terms": [
+        "good fabric gsm",
+        "gsm fabric quality",
+        "180 gsm fabric quality",
+        "200 gsm fabric quality",
+        "220 gsm fabric quality",
+        "240 gsm fabric quality"
+      ],
+      "score": 33.0
+    },
+    {
       "term": "can you add a detailed video on preparing the tech pack please",
       "vid": "AKlbDssE-kQ",
       "cid": "Ugw4F53kRbspACHbyLh4AaABAg",
@@ -207,26 +227,6 @@
         "tech pack 11"
       ],
       "score": 26.0
-    },
-    {
-      "term": "can you share your favorite online fabric stores",
-      "vid": "p_vnwgtJLz4",
-      "cid": "UgxhXqRo-_Bf5aMGUCt4AaABAg",
-      "question": "Can you share your favorite online fabric stores?",
-      "source_url": "https://www.youtube.com/watch?v=p_vnwgtJLz4",
-      "comment_url": "https://www.youtube.com/watch?v=p_vnwgtJLz4&lc=UgxhXqRo-_Bf5aMGUCt4AaABAg",
-      "votes": 12,
-      "funnel": "mid",
-      "intent": "spec",
-      "inject_terms": [
-        "fabric gsm calculator online",
-        "fabric gsm",
-        "duck fabric gsm",
-        "eyelet fabric gsm",
-        "fabric 100 gsm",
-        "fabric 120 gsm"
-      ],
-      "score": 24.0
     }
   ]
 }
